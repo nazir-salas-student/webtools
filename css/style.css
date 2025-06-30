@@ -1,5 +1,5 @@
 a:link {
-    color: #0CED32;
+    color: #03f22b;
 }
 
 a:visited {
@@ -7,7 +7,7 @@ a:visited {
 }
 
 li {
-    color: #0CED32;
+    color: #03f22b;;
 }
 
 body {
@@ -15,21 +15,21 @@ body {
 }
 
 h1 {
-    color: #0CED32;
+    color: #03f22b;
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
     text-align: center;
 }
 
 h2 {
-    color: #0CED32;
+    color: #03f22b;
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
     text-align: center;
 }
 
 p {
-    color: #0CED32;
+    color: #03f22b;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
