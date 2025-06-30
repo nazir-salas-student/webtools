@@ -1,0 +1,39 @@
+a:link {
+    color: #0CED32;
+}
+
+a:visited {
+    color: #db0d0d;
+}
+
+li {
+    color: #0CED32;
+}
+
+body {
+    background-color: #252222;
+}
+
+h1 {
+    color: #0CED32;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    text-align: center;
+}
+
+h2 {
+    color: #0CED32;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    text-align: center;
+}
+
+p {
+    color: #0CED32;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.first {
+    font-style: italic;
+}
