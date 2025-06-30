@@ -1,5 +1,5 @@
 a:link {
-    color: #03f22b;
+    color: #00FF11;
 }
 
 a:visited {
@@ -7,29 +7,29 @@ a:visited {
 }
 
 li {
-    color: #03f22b;;
+    color: #00FF11;
 }
 
 body {
-    background-color: #252222;
+    background-color: #000000;
 }
 
 h1 {
-    color: #03f22b;
+    color: #00FF11;
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
     text-align: center;
 }
 
 h2 {
-    color: #03f22b;
+    color: #00FF11;
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
     text-align: center;
 }
 
 p {
-    color: #03f22b;
+    color: #00FF11;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
