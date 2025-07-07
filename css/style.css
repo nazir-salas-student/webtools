@@ -8,6 +8,7 @@ a:visited {
 
 li {
     color: #1E1EA4;
+    text-align: center;
 }
 
 nav {
@@ -20,9 +21,7 @@ ul{
     text-decoration-color: #F6A684;
 }
 
-il{
-    text-align: center;
-}
+
 footer{
     color: #370B0B;
     text-align: center;
