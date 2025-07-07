@@ -30,7 +30,8 @@ footer{
 
 body {
     background-color: #C0D265;
-
+    text-align:left;
+    text-align-last: justify;
 }
 
 h1 {
@@ -50,7 +51,7 @@ h2 {
 p {
     color: #1E1EA4;
     font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
+    
 }
 
 .first {
