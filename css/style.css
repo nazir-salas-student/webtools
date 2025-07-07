@@ -1,5 +1,5 @@
 a:link {
-    color: #00FF11;
+    color: #1E1EA4;
 }
 
 a:visited {
@@ -7,33 +7,54 @@ a:visited {
 }
 
 li {
-    color: #00FF11;
+    color: #1E1EA4;
+}
+
+nav {
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+    color: #370B0B;
+    text-decoration-color: #F6A684;
+}
+
+il{
+    text-align: center;
+}
+footer{
+    color: #370B0B;
+    text-align: center;
+    text-decoration-color: #F6A684;
 }
 
 body {
-    background-color: #000000;
+    background-color: #C0D265;
+
 }
 
 h1 {
-    color: #00FF11;
+    color: #1E1EA4;
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
     text-align: center;
 }
 
 h2 {
-    color: #00FF11;
+    color: #1E1EA4;
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
-    text-align: center;
+    text-align: justify;
 }
 
 p {
-    color: #00FF11;
+    color: #1E1EA4;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+    text-align: justify;
 }
 
 .first {
     font-style: italic;
 }
+

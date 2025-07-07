@@ -4,4 +4,6 @@ The goal of the assignment is to demonstrate an understanding of the worlflow an
 
 The result should be a functional HTML Page.
 
+New revision involved creating new pages and made some style/created links.
+
 Nazir
