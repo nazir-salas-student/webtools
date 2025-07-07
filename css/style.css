@@ -31,7 +31,6 @@ footer{
 body {
     background-color: #C0D265;
     text-align:left;
-    text-align-last: justify;
 }
 
 h1 {
@@ -45,7 +44,7 @@ h2 {
     color: #1E1EA4;
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
-    text-align: justify;
+    text-align: left;
 }
 
 p {
