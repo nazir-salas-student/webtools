@@ -15,39 +15,39 @@
         <a href="index.html">Home</a>
         <a href="about-us.html">About Us</a> 
         <a href="contact-us.html">Contact Us</a>
-        <a href="training.html">Training</a>
     </nav>
     <h1 class="title">Contact Us</h1>
     <form class="contactus" name="contact" action="success.html" method="get">
         <fieldset>
-        <label for="name">Name:</label>
+            <legend>Enter Your Information Here</legend>
+        <label for="name" title="enter yr name">Name:</label>
         <input type="text" id="name" name="name" required>
         
-        <label for="email">Email:</label>
+        <label for="email" title="enter your email">Email:</label>
         <input type="email" id="email" name="email" required>
         
         
-        <label for="class">Class:</label>
+        <label for="class" title="select the class you are inquring about">Class:</label>
         <select id="class" name="class">
         <option value="">Select One</option>
-        <option value="webDesign">Web Design</option>
+        <option value="webdesign">Web Design</option>
         <option value="programming">Programming</option>
-        <option value="networkSecurity">Network Security</option>
-        <option value="computerHelpdesk">Computer Helpdesk</option>
+        <option value="networksecurity">Network Security</option>
+        <option value="computerhelpdesk">Computer Helpdesk</option>
         </select>
         
-        <label for="message">Message:</label>
+        <label for="message" title="enter your message">Message:</label>
         <textarea id="message" name="message" rows="4" cols="40" placeholder="Enter your message here..."></textarea>
-        <label>
+        <label for="reply" title="select if you need a reply"></label>
         <input type="checkbox" name="reply"> Click for a reply
-        </label>
+        
         
         <label>Question<input type="radio" name="messageType" value="question" checked></label>
         <label>Comment<input type="radio" name="messageType" value="comment"></label>
         
         
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">    
+        <input type="submit" name="submit" value="Submit">
+        <input type="reset" name="reset" value="Reset">    
         </fieldset>
     </form>
     <footer class="bottomlinks"> <a href="https://www.dallascollege.edu/pages/default.aspx">Dallas College</a>

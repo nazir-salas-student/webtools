@@ -47,14 +47,15 @@ p {
 .schedule{
   margin: 0 auto;
   width: 60%;
-  padding: 50px;
+  padding: 20px;
   align-items: center;
   text-align: center;
+  font-size: 17pt;
 }
 
-.lines{
-  border-bottom: thin solid black
+.thicklines{
+  border-bottom: thick solid black;
 }
-tr{
-  border-bottom: thin solid black
+.thinlines{
+  border: thin solid black;
 }
