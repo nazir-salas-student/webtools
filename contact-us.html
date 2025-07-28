@@ -4,17 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="icon" href="images/favicon.ico">
     <title>Contact Us</title>
 </head>
 
 <body>
-    <nav>
-        <a href="index.html">Home</a> ||
-        <a href="about-us.html">About Us</a> ||
+    <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a> 
         <a href="contact-us.html">Contact Us</a>
+        <a href="training.html">Training</a>
     </nav>
-    <h1>Under Construction</h1>
-    <footer> <a href="https://www.dallascollege.edu/pages/default.aspx">Dallas College</a>
+    <h1>Contact Us</h1>
+    <form name="contact" action="success.html" method="get">
+        <fieldset>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        
+        <label for="class">Class:</label>
+        <select id="class" name="class">
+        <option value="">Select One</option>
+        <option value="webDesign">Web Design</option>
+        <option value="programming">Programming</option>
+        <option value="networkSecurity">Network Security</option>
+        <option value="computerHelpdesk">Computer Helpdesk</option>
+        </select>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="40" placeholder="Enter your message here..."></textarea>
+        <label>
+        <input type="checkbox" name="subscribe"> Subscribe to newsletter
+        </label>
+        
+        <label>Question<input type="radio" name="messageType" value="question" checked></label>
+        <label>Comment<input type="radio" name="messageType" value="comment"></label>
+        
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">    
+        </fieldset>
+    </form>
+    <footer class="topnav"> <a href="https://www.dallascollege.edu/pages/default.aspx">Dallas College</a>
         <a href="https://en.wikipedia.org/wiki/Air_Bud">Inspiration for My Avatar</a>
         <a href="mailto:e1818683@student.dcccd.edu">Email Webmaster</a>
     </footer>
