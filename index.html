@@ -16,17 +16,21 @@
         <a href="about-us.html">About Us</a>
         <a href="contact-us.html">Contact Us</a>
     </nav>
-    <ul>
-        <li>About Me</li>
-        <li>"My Experience in HTML"</li>
-        <li>My Avatar</li>
-        <li>Onboarding Process</li>
-    </ul>
+    <aside class="toc">
+        <ul>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#html">My Experience in HTML</a></li>
+            <li><a href="#avatar">My Avatar</a></li>
+            <li><a href="#onboarding">Onboarding Process</a></li>
+            <li><a href="#bootcampcalendar">Bootcamp Calender</a></li>
+            <li><a href="#trainingcalendar">Training Calendar</a></li>
+        </ul>
+    </aside>
 
-    <h1>Hello World! A Training Website</h1>
+    <h1 class="title">Hello World! A Training Website</h1>
 
     <section>
-        <h2>About Me</h2>
+        <h2 class="subheading" id="aboutme">About Me</h2>
         <a href="images/blacksmithing.jpg" target="_blank">
             <img src="images/blacksmithing.jpg" alt="blacksmthing demo">
         </a>
@@ -48,7 +52,7 @@
     </section>
     <br>
     <section>
-        <h2>My Experience in HTML</h2>
+        <h2 class="subheading" id="html">My Experience in HTML</h2>
         <p class="first">I have worked on HTML before in a different class.</p>
         <p>Committing and pushing changes is a new one for me. I hope to address any gaps I have.</p>
         <p>Some of the setup is a bit new to me but I hope to practice and get over the hurdle.</p>
@@ -66,7 +70,7 @@
     </section>
     <br>
     <section>
-        <h2>My Avatar</h2>
+        <h2 class="subheading" id="avatar">My Avatar</h2>
         <p class="first">But enough of my story. Let's look at someone who is starting just like me.</p>
         <a href="images/dog.jpg" target="_blank">
             <img src="images/dog.jpg" alt="A good boy">
@@ -91,10 +95,11 @@
             the demands of the job,
             taking the time to
         </p>
+
     </section>
     <br>
     <section>
-        <h2>Onboarding Process</h2>
+        <h2 class="subheading" id="onboarding">Onboarding Process</h2>
         <a href="images/computerwork.jpg" target="_blank">
             <img src="images/computerwork.jpg" alt="At work at the computer">
         </a>
@@ -106,49 +111,58 @@
         <p>When the bootcamp is completed, there is alwyas more opportunities to grow as a part of the company.
             There are also classes that are taught by subject matter experts which will help you gain new insights or
             even allow you to review what you know so that
+        </p>
+        <p>The schedule below include some of the offering that we have so far. One is specifically for new employees,
+            and covers a two week period.
+            The other calendar are classes that are offered throughout the month. Any employee can take advantage of the
+            classes that they can reasonably cover.
+            The classes change from month to month so if this month isn't of interest, then next month might offer
+            courses that are more relevant.
+        </p>
+        <p>
 
         </p>
     </section>
-    <br>
-    <section>
-        <table class="schedule">
-            <caption>Bootcamp schedule for next month</caption>
-            <thread>
-                <tr>
-                    <th>Sunday</th>
-                    <th>Monday</th>
-                    <th>Tuesday</th>
-                    <th>Wednesday</th>
-                    <th>Thursday</th>
-                    <th>Friday</th>
-                    <th>Saturday</th>
-                </tr>
-            </thread>
-            <tbody>
-                <tr>
-                    <td>Off</td>
-                    <td>Web Design</td>
-                    <td>Java Programming</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>Off</td>
-                </tr>
-                <tr>
-                    <td>Off</td>
-                    <td>Web Design</td>
-                    <td>Python Programming</td>
-                    <td></td>
-                    <td></td>
-                    <td>Topics in Data Science</td>
-                    <td>Off</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    <table class="schedule">
-        <caption>Training schedule for next month</caption>
-        <thread>
+
+    <table class="schedule" id="bootcampschedule">
+        <caption>Bootcamp Schedule for Next Month</caption>
+        <thead>
+            <tr class="lines">
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+        </thead>
+        <tbody class="lines">
+            <tr>
+                <td>Off</td>
+                <td>Web Design</td>
+                <td>Java Programming</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Off</td>
+            </tr>
+            <tr>
+                <td>Off</td>
+                <td>Web Design</td>
+                <td>Python Programming</td>
+                <td></td>
+                <td></td>
+                <td>Topics in Data Science</td>
+                <td>Off</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table class="schedule" id="trainingcalendar">
+        <caption>Training Schedule for Next Month</caption>
+        <thead>
             <tr>
                 <th>Sunday</th>
                 <th>Monday</th>
@@ -158,22 +172,38 @@
                 <th>Friday</th>
                 <th>Saturday</th>
             </tr>
-        </thread>
+        </thead>
         <tbody>
             <tr>
                 <td>Off</td>
                 <td>Web Design</td>
                 <td>Java Programming</td>
                 <td></td>
+                <td></td>
+                <td>Best Programming Practices</td>
+                <td>Off</td>
             </tr>
             <tr>
                 <td>Off</td>
                 <td>Web Design</td>
+                <td>C# Programming</td>
+                <td>Machine Learning</td>
+                <td>Topics on AI</td>
+                <td>Legal Regulation</td>
+                <td>Off</td>
+            </tr>
+            <tr>
+                <td>Off</td>
+                <td>Web Design</td>
+                <td>Python Programming</td>
                 <td></td>
+                <td></td>
+                <td>Topics in Data Science</td>
+                <td>Off</td>
             </tr>
         </tbody>
     </table>
-    <footer class="topnav"> <a href="https://www.dallascollege.edu/pages/default.aspx">Dallas College</a>
+    <footer class="bottomlinks"> <a href="https://www.dallascollege.edu/pages/default.aspx">Dallas College</a>
         <a href="https://en.wikipedia.org/wiki/Air_Bud">Inspiration for My Avatar</a>
         <a href="mailto:e1818683@student.dcccd.edu">Email Webmaster</a>
     </footer>

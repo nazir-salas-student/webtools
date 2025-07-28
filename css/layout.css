@@ -4,8 +4,10 @@
     float: left;
     
  }
- form{
+ .contactus{
     margin: 0 auto;
+    border: 20px;
+    padding: 50px;
     width: 60%;
     align-items: center;
 
@@ -38,17 +40,21 @@ input[type="submit"]:hover, input[type="reset"]:hover {
   background-color: #0056b3;
 }
 
-.paragraphs{
+p {
   text-align: justify;
-  padding: 25px
 }
 
 .schedule{
   margin: 0 auto;
   width: 60%;
-  float: center;
-  border: 20px;
-  padding: 25;
+  padding: 50px;
+  align-items: center;
   text-align: center;
+}
 
+.lines{
+  border-bottom: thin solid black
+}
+tr{
+  border-bottom: thin solid black
 }
